@@ -1,0 +1,23 @@
+{
+	"name": "shazzad/hostfully-sync",
+	"description": "Import hostfully properties into WordPress.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Shazzad Hossain Khan",
+			"email": "hello@shazzad.me"
+		}
+	],
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-4": {
+			"Hostfully_Sync\\": "includes/"
+		},
+		"files": [
+			"includes/functions.php",
+			"includes/template-functions.php",
+			"includes/api-functions.php"
+		]
+	}
+}
